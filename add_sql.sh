@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# Set up MySQL credentials and database name
 MYSQL_USER="root"
 MYSQL_PASSWORD="root"
 DATABASE_NAME="LibraryDB"
 
-# Create the SQL setup file
 SQL_FILE="setup_library.sql"
 cat <<EOF > $SQL_FILE
 -- Create database
